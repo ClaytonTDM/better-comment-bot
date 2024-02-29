@@ -11,6 +11,3 @@ random_length: 5
 
 comment_upload_delay: 30
 # Delay in seconds between comment uploads, don't go under 25 with a single IP
-
-percentage: 0
-# Percentage of completion displayed on the comment, set it to 0 if you don't want it to be displayed, don't set to above 100
