@@ -17,7 +17,7 @@ let config;
 let username;
 let password;
 try {
-    config = yaml.load(fs.readFileSync("./config.txt.yml", "utf8"));
+    config = yaml.load(fs.readFileSync(process.cwd() + "/config.txt.yml", "utf8"));
 } catch (error) {
     throw new Error(
         `Could load config, make sure it's formatted correctly:\n${error}`
